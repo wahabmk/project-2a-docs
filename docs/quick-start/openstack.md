@@ -106,7 +106,7 @@ metadata:
   name: my-openstack-cluster-deployment
   namespace: kcm-system
 spec:
-  template: openstack-standalone-cp-0-0-1
+  template: openstack-standalone-cp-0-0-2
   credential: openstack-cluster-identity-cred
   config:
     controlPlaneNumber: 1

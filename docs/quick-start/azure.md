@@ -198,7 +198,7 @@ metadata:
   name: my-azure-clusterdeployment1
   namespace: kcm-system
 spec:
-  template: azure-standalone-cp-0-0-3
+  template: azure-standalone-cp-0-0-5
   credential: azure-cluster-identity-cred
   config:
     location: "westus" # Select your desired Azure Location (find it via `az account list-locations -o table`)
